@@ -1,0 +1,55 @@
+body{
+  background-color: beige;
+}
+h1{
+  font-weight: bolder ;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#navbar{
+  display: flex;
+  background-color: rgba(233, 227, 206, 0.76);
+  flex-direction: column;
+  position: fixed;
+  height: 100%;
+  width: 300px;
+  font-size: 1.4em;
+}
+
+header {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+a{
+  margin-bottom: 10px;
+  color: black;
+}
+a:link{
+  text-decoration: none;
+}
+
+.main-section{
+  margin-left: 300px;
+  padding: 10px;
+}
+
+code{
+  background-color: rgba(203, 213, 221, 0.877);
+  padding: 5px;
+  font-family: 'Times New Roman', Times, serif;
+  border-radius: 5px;
+}
+li{
+  margin: 20px;
+}
+
+@media(max-width: 480px)
+{
+  #navbar{
+    display: block;
+    background-color: rgba(233, 227, 206, 0.76);
+    text-align: center;
+  }
+}
+
